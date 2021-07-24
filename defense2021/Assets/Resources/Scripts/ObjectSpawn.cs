@@ -9,7 +9,8 @@ public class ObjectSpawn : MonoBehaviour
     public int round = 1;
     public float row = 0.5f;
     public Text roundsinfo;
-    public GameObject Enemy; 
+    public GameObject Enemy;
+    public GameObject Enemydead;
     void SpawnEnemy()
     {
         setRoundinfo();
@@ -34,10 +35,15 @@ public class ObjectSpawn : MonoBehaviour
     
     
     }
+    void killUnit() 
+    {
+        Destroy(Enemydead,10f);
+    
+    }
     void Start()
     {
         InvokeRepeating("SpawnEnemy", 1, 3);
-        
+        killUnit();
     }
     void Update()
     {
