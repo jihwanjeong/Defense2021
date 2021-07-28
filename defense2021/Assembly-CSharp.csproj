@@ -64,6 +64,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Resources\Scripts\Arrenger.cs" />
+    <Compile Include="Assets\Resources\Scripts\Central.cs" />
+    <Compile Include="Assets\Resources\Scripts\DragDrop.cs" />
     <Compile Include="Assets\Resources\Scripts\ObjectSpawn.cs" />
     <None Include="Assets\Cartoon Castle Building Kit\ReadMe.txt" />
     <Reference Include="UnityEngine">

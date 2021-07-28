@@ -11,7 +11,7 @@ public class ObjectSpawn : MonoBehaviour
     public Text roundsinfo;
     public GameObject Enemy;
     public GameObject Enemydead;
-    void SpawnEnemy()
+    public void SpawnEnemy()
     {
         setRoundinfo();
       
